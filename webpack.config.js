@@ -6,8 +6,8 @@ module.exports = {
     mode: 'development',
     entry: './src/js/index.js',
     output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist'),
+        filename: 'index.js',
+        path: __dirname + '/dist',
     },
     module: {
         rules: [
@@ -48,7 +48,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            template: './index.html', // 경로를 실제 파일 위치로 수정
+            template: './index.html', // index.html의 실제 경로를 명확히 설정합니다.
         }),
     ],
     devServer: {
