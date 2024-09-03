@@ -11,16 +11,16 @@ import gamebgm from "../audio/gamebgm.mp3";
 import Hitdudu from "../audio/hitdudu.mp3";
 
 // 두더지
-import Dudugigam from './js/Dudugigam';
+import Dudugigam from './Dudugigam';
 
 // 망치
-import Hammer from './js/Hammer';
+import Hammer from './Hammer';
 
 // 점수
-import Score from './js/Score';
+import Score from './Score';
 
 // 타이머
-import Time from './js/Time';
+import Time from './Time';
 
 export default class Round extends Phaser.Scene {
 

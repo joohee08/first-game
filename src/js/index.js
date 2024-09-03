@@ -1,6 +1,5 @@
 import Phaser from 'phaser';
 
-import '../styles/index.css'; 
 
 import Loading from './Loading.js';
 import Round from './Round.js';
