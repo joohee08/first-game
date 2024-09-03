@@ -1,9 +1,9 @@
 import Phaser from "phaser";
 
-import Background from "@/images/grass.png";
-import Dudugis from "@/images/dudugi-title.png";
-import titlebgm from "@/audio/titlebgm.mp3";
-import gamebgm from "@/audio/gamebgm.mp3";
+import Background from "../images/grass.png";
+import Dudugis from "../images/dudugi-title.png";
+import titlebgm from "../audio/titlebgm.mp3";
+import gamebgm from "../audio/gamebgm.mp3";
 
 export default class Loading extends Phaser.Scene {
 

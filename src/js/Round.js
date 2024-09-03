@@ -1,26 +1,26 @@
 import Phaser from "phaser";
 
 // 이미지
-import Grass from '@/images/grass.png';
-import Dudugi from '@/images/dudugi-img.png';
-import Hole from '@/images/hole.png';
-import Mangchi from '@/images/mangchi.png';
-import rabbit from '@/images/rabbit.png';
-import Timer from '@/images/timer.png';
-import gamebgm from "@/audio/gamebgm.mp3";
-import Hitdudu from "@/audio/hitdudu.mp3";
+import Grass from '../images/grass.png';
+import Dudugi from '../images/dudugi-img.png';
+import Hole from '../images/hole.png';
+import Mangchi from '../images/mangchi.png';
+import rabbit from '../images/rabbit.png';
+import Timer from '../images/timer.png';
+import gamebgm from "../audio/gamebgm.mp3";
+import Hitdudu from "../audio/hitdudu.mp3";
 
 // 두더지
-import Dudugigam from '@/js/Dudugigam';
+import Dudugigam from './js/Dudugigam';
 
 // 망치
-import Hammer from '@/js/Hammer';
+import Hammer from './js/Hammer';
 
 // 점수
-import Score from '@/js/Score';
+import Score from './js/Score';
 
 // 타이머
-import Time from '@/js/Time';
+import Time from './js/Time';
 
 export default class Round extends Phaser.Scene {
 

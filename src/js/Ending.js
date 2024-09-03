@@ -1,10 +1,10 @@
 import Phaser from 'phaser';
 
-import Background from "@/images/grass.png";
-import Dog from '@/images/dog-lose.png';
-import Cat from '@/images/cat-win.png';
-import Win from "@/audio/victorywin.mp3";
-import Lose from "@/audio/lose.mp3";
+import Background from "../images/grass.png";
+import Dog from '../images/dog-lose.png';
+import Cat from '../images/cat-win.png';
+import Win from "../audio/victorywin.mp3";
+import Lose from "../audio/lose.mp3";
 
 export default class Ending extends Phaser.Scene {
     constructor() {

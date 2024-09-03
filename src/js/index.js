@@ -1,10 +1,10 @@
-import '@/styles/index.css';
-
 import Phaser from 'phaser';
 
-import Loading from '@/js/Loading';
-import Round from '@/js/Round';
-import Ending from '@/js/Ending';
+import '../styles/index.css'; 
+
+import Loading from './Loading.js';
+import Round from './Round.js';
+import Ending from './Ending.js';
 
 // 웹 폰트(Web font) 설정 - Google Web Font Loader 사용
 import WebFont from 'webfontloader';
