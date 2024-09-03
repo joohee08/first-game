@@ -1,5 +1,3 @@
-import Phaser from 'phaser';
-
 import Loading from './Loading.js';
 import Round from './Round.js';
 import Ending from './Ending.js';
