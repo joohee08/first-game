@@ -41,7 +41,7 @@ module.exports = {
     },
     resolve: {
         alias: {
-            '@': path.resolve(__dirname, 'src'),
+            phaser: path.resolve(__dirname, 'node_modules/phaser/dist/phaser.js'),
         },
         extensions: ['.js', '.json', '.css'],
     },
